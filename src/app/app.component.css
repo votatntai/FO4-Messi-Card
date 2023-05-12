@@ -1,0 +1,128 @@
+.hexagon-card-border {
+    position: relative;
+    width: 16rem;
+    height: 26rem;
+    clip-path: polygon(50% 0%, 100% 10%, 100% 92%, 50% 100%, 0% 92%, 0% 10%);
+    background-image: linear-gradient(to top right, #f77b00, #ffd900);
+}
+
+.hexagon-card-border::before,
+.hexagon-card-border::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 50% 50%);
+}
+
+.hexagon-card-border::before {
+    left: 0;
+    transform: skewY(60deg);
+}
+
+.hexagon-card-border::after {
+    right: 0;
+    transform: skewY(-60deg);
+}
+
+.hexagon-card {
+    position: relative;
+    width: 15rem;
+    height: 25rem;
+    clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0% 90%, 0% 10%);
+}
+
+.hexagon-card::before,
+.hexagon-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 50% 50%);
+}
+
+.hexagon-card::before {
+    left: 0;
+    transform: skewY(60deg);
+}
+
+.hexagon-card::after {
+    right: 0;
+    transform: skewY(-60deg);
+}
+
+.hexagon {
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hexagon::before,
+.hexagon::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 50% 50%);
+}
+
+.hexagon::before {
+    left: 0;
+    transform: skewY(60deg);
+}
+
+.hexagon::after {
+    right: 0;
+    transform: skewY(-60deg);
+}
+
+.hexagon-border {
+    position: relative;
+    width: 2.5rem;
+    height: 2.5rem;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hexagon-border::before,
+.hexagon-border::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    clip-path: polygon(0 0, 100% 0, 50% 50%);
+}
+
+.hexagon-border::before {
+    left: 0;
+    transform: skewY(60deg);
+}
+
+.hexagon-border::after {
+    right: 0;
+    transform: skewY(-60deg);
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+swiper-container {
+    width: 16rem;
+    height: 26rem;
+}
+
+swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
