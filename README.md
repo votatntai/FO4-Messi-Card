@@ -1,6 +1,7 @@
 # FO4Card
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
+<img src="https://drive.google.com/file/d/1cn3wSSB8v2kjlwzQBTevxgmjlFMXCaEY/view" alt="..." width="250" />
 
 ## Development server
 
