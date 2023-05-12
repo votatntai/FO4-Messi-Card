@@ -1,6 +1,7 @@
 # FO4Card
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5 and using `Tailwind CSS`.
+
 
 # Demo
 <img src="https://drive.google.com/uc?export=download&id=1HzFVVx930kdE3Mf90wS8BeqUPvVR_cPM" alt="..." width="250" />
